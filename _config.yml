@@ -21,7 +21,7 @@ baseurl: "" # Leave empty for GitHub Pages
 url: "https://lghub-t.github.io/varts" # Your GitHub Pages URL
 
 # Use Time Machine theme
-remote_theme: jekyllt/time-machine
+theme: jekyll-theme-minimal
 
 plugins:
   - jekyll-feed
