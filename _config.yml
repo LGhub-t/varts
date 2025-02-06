@@ -19,8 +19,6 @@ email: your-email@example.com
 description: "Exploring Hamilton, VARs, and Bayesian VARs"
 baseurl: "" # Leave empty for GitHub Pages
 url: "https://lghub-t.github.io/varts" # Your GitHub Pages URL
-
-# Use Time Machine theme
 theme: jekyll-theme-minimal
 
 plugins:
