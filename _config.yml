@@ -20,27 +20,27 @@
 
 title: "BVAR Analysis"
 email: "your-email@example.com"
-description: >- 
-  This site is dedicated to studying Hamilton’s time series methods, 
-  Vector Autoregressions (VARs), and Bayesian VARs (BVARs). 
-  Explore models, methodologies, and applications in macroeconometrics.
-
-baseurl: "" # Leave empty unless your site is in a subdirectory
+description: "Exploring Hamilton, VARs, and Bayesian VARs"
+baseurl: "" # Leave empty for GitHub Pages
 url: "https://lghub-t.github.io/varts" # Your GitHub Pages URL
-twitter_username: "your_twitter_handle"
-github_username: "LGhub-t"
 
-# Build settings
+# Use Minima theme (or specify a custom theme if needed)
 theme: minima
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-paginate
-  - jekyll-archives
+
+header_pages:
+  - index.markdown
+  - hamilton.md
+  - vars.md
+  - bvars.md
 
 show_excerpts: true
-paginate: 5 # Adjust number of posts per page if needed
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
