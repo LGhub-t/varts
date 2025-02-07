@@ -57,11 +57,11 @@ The analysis uses quarterly data from several countries over the period
 
 -   Government spending ( $$G_{it}$$ ),
 
--   Tax revenues ( $T_{it}$ ),
+-   Tax revenues ( $$T_{it}$$ ),
 
--   Inflation ( $\pi_{it}$ ),
+-   Inflation ( $$\pi_{it}$$ ),
 
--   Output gap ( $OG_{it}$ ).
+-   Output gap ( $$OG_{it}$$ ).
 
 Data sources include the World Bank, national central banks, and
 statistical agencies. All variables are expressed as percentages of GDP,
@@ -78,11 +78,12 @@ general form of the TVP-VAR model is given by:
 $$Z_{it} = A_t Z_{i,t-1} + \epsilon_{it}$$
 
 where: 
-$ Z_{it} = \begin{bmatrix} G_{it} & T_{it} & \pi_{it} & OG_{it} \end{bmatrix}^T $
-is the vector of variables for country $i$ at time $t$, - $A_t$ is the
+$$Z_{it} = \begin{bmatrix} G_{it} & T_{it} & \pi_{it} & OG_{it} \end{bmatrix}^T$$
+is the vector of variables for country $i$ at time $$t$$, 
+$$A_t$$ is the
 time-varying coefficient matrix, which allows for changes in the
 relationships between fiscal policy variables and inflation over time, 
-$\epsilon_{it}$ is the error term.
+$$\epsilon_{it}$$ is the error term.
 
 The time-varying coefficients are modeled as a random walk, which allows
 for gradual shifts in the relationship between fiscal policy and
