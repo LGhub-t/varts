@@ -12,12 +12,29 @@
         <h1>{{ site.title }}</h1>
         <p>{{ site.description }}</p>
         <nav>
+    <ul>
+        <li><a href="{{ site.baseurl }}/">Home</a></li>
+        <li><a href="{{ site.baseurl }}/hamilton/">Hamilton Filters</a>
             <ul>
-                <li><a href="{{ site.baseurl }}/">Home</a></li>
-                <li><a href="{{ site.baseurl }}/hamilton/">Hamilton</a></li>
-                <li><a href="{{ site.baseurl }}/filters/hamilton/">Hamilton Filter</a></li>
+                <li><a href="{{ site.baseurl }}/hamilton/applications/">Applications</a></li>
+                <li><a href="{{ site.baseurl }}/hamilton/code/">Code Examples</a></li>
             </ul>
-        </nav>
+        </li>
+        <li><a href="{{ site.baseurl }}/var/">VAR Models</a>
+            <ul>
+                <li><a href="{{ site.baseurl }}/var/estimation/">Estimation</a></li>
+                <li><a href="{{ site.baseurl }}/var/applications/">Applications</a></li>
+            </ul>
+        </li>
+        <li><a href="{{ site.baseurl }}/bvar/">Bayesian VARs</a>
+            <ul>
+                <li><a href="{{ site.baseurl }}/bvar/advanced/">Advanced Topics</a></li>
+                <li><a href="{{ site.baseurl }}/bvar/examples/">Examples</a></li>
+            </ul>
+        </li>
+    </ul>
+</nav>
+
     </header>
 
     <main>
