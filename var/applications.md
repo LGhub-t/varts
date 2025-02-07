@@ -55,7 +55,7 @@ economic cycles, structural changes, and policy interventions.
 The analysis uses quarterly data from several countries over the period
 2002 to 2018. The key variables include:
 
--   Government spending (\$G_{it}\$),
+-   Government spending ( $$G_{it}$$ ),
 
 -   Tax revenues ($T_{it}$),
 
