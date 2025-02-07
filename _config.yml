@@ -33,11 +33,12 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
 
+
 header_pages:
-  - index.markdown
-  - hamilton.md
-  - vars.md
-  - bvars.md
+  - index.md
+  - hamilton/index.md
+  - var/index.md
+  - bvar/index.md
 
 show_excerpts: true
 
