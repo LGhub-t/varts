@@ -15,6 +15,14 @@
     <main>
         {{ content }}
     </main>
+<nav>
+  <ul>
+    <li><a href="/">Home</a></li>
+    <li><a href="/hamilton/">Hamilton</a></li>
+    <li><a href="/filters/hamilton/">Hamilton Filter</a></li>
+  </ul>
+</nav>
+
 </body>
 </html>
 
