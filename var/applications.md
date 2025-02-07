@@ -79,7 +79,7 @@ $$Z_{it} = A_t Z_{i,t-1} + \epsilon_{it}$$
 
 where: 
 $$Z_{it} = \begin{bmatrix} G_{it} & T_{it} & \pi_{it} & OG_{it} \end{bmatrix}^T$$
-is the vector of variables for country $i$ at time $$t$$, 
+is the vector of variables for country $$i$$ at time $$t$$, 
 $$A_t$$ is the
 time-varying coefficient matrix, which allows for changes in the
 relationships between fiscal policy variables and inflation over time, 
