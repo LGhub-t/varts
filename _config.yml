@@ -12,17 +12,18 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-
-
-title: BVAR Analysis
+title: "BVAR Analysis"
 email: your-email@example.com
 description: "Exploring Hamilton, VARs, and Bayesian VARs"
-baseurl: "" # Leave empty for GitHub Pages
+baseurl: "" # Leave this empty
 url: "https://lghub-t.github.io/varts" # Your GitHub Pages URL
+
+# Apply a Theme (Choose One)
 theme: jekyll-theme-time-machine
+# OR
+remote_theme: pages-themes/time-machine@v0.2.0
 
-
-
+# Plugins
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
@@ -36,6 +37,7 @@ header_pages:
   - bvars.md
 
 show_excerpts: true
+
 
 
 # Exclude from processing.
